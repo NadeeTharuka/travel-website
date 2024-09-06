@@ -26,6 +26,16 @@
 
     .logo{
     color: var(--blackColor);
+    font-weight: 600;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+
+    .icon{
+        font-size: 25px;
+        color: var(--PrimaryColor);
+        transform: translate(5px);
+    }
     }
     
     @media screen and (max-width: 768px) {
@@ -85,5 +95,15 @@
         }
     }
 }
+
+    .toggleNavbar{
+        .icon{
+            font-size: 25px;
+            color: var(--PrimaryColor);
+        }
+        &:hover.icon{                          
+
+        }
+    }
 
 }
