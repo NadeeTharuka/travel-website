@@ -17,7 +17,7 @@ const Navbar = () => {
 
 
                 <div className="navBar">
-                    <ul className="navLists flex">
+                    <ul className="navLists grid">
                         
                         <li className="navItem">
                             <a href="#" className="navLink">Home</a>
